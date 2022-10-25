@@ -22,12 +22,16 @@
         <div class="logo">
           <img src="./images/logo.png" alt="" />
         </div>
+        <input type="checkbox" id="nav-toggler" />
+        <label class="nav-toggler-icon" for="nav-toggler">
+          <i class="card-icon fas fa-bars"></i
+        ></label>
         <ul class="navigation">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Feature</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Gallay</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <section class="container">
@@ -94,6 +98,60 @@
           </div>
         </div>
       </section>
+      <section id="gallery">
+        <div class="section-title">
+          <h2>Gal<span class="highlights">l</span>ery</h2>
+        </div>
+        <div class="gallery">
+          <div class="photo">
+            <img src="./images/godzilla.jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="./images/meena.jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="./images/jumanji.jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="./images/images (2).jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="./images/images (3).jpg" alt="" />
+          </div>
+          <div class="photo">
+            <img src="./images/images (4).jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="section-title">
+          <h2>Con<span class="highlights">t</span>act</h2>
+        </div>
+        <div class="contact">
+          <div class="contact-left">
+            <img src="./images/contact.png" alt="" />
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" class="text-field" placeholder="Your Name" />
+              <input type="email" class="text-field" placeholder="Your Email" />
+              <textarea
+                class="text-field"
+                placeholder="Your Messages...."
+                cols="30"
+                rows="10"
+              ></textarea>
+              <button class="primary-button">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <small
+          >Copyright &copy; all right reserved by
+          <span class="highlights">Cosmic World</span>.</small
+        >
+      </footer>
     </main>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
